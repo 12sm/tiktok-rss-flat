@@ -11,7 +11,7 @@ ghPagesURL = "https://12sm.github.io/tiktok-rss-flat/"
 
 api = TikTokApi.get_instance()
 
-count = 10
+count = 50
 
 with open('subscriptions.csv') as f:
     cf = csv.DictReader(f, fieldnames=['username'])
