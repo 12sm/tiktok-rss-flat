@@ -45,7 +45,7 @@ with open('subscriptions.csv') as f:
             updated = max(ts, updated) if updated else ts
             fe.title(tiktok['desc'])
             fe.link(href=link)
-            fe.description("<img src='" + tiktok['video']['cover'] + "' />")
+            fe.description(tiktok['video']['cover'])
 
         fg.updated(updated)
 
